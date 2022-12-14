@@ -16,15 +16,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     border-bottom: 2px solid white;
-    
-   
-
   }
   .logo img{
     width: 20vw;
     height: 10vh;
     
   }
+
   .list {
     display: flex;
     flex-wrap: wrap;
@@ -34,19 +32,10 @@
     gap: 2rem;
     width: 50vw !important;
     /* border: 2px solid red; */
+    
   }
-  .innerlist {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    border-bottom: 2px solid white;
-   
-  }
-  .dateandicon{
-    display: flex;
-    justify-content: space-between;
-  }
+
+  
+  
+  
   
