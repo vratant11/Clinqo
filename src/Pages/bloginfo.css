@@ -15,11 +15,11 @@
     padding: 0.5rem;    
     justify-content: flex-start;
     align-items: flex-start;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
   }
   .logo img{
     width: 20vw;
-    height: 10vh;
+    height: 20vh;
     
   }
 
