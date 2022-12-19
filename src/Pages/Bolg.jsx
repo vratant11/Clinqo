@@ -56,6 +56,9 @@ export default function National() {
                 <h4>
                   Author : {item.author}
                 </h4>
+                <h4>
+                  Views : {item.views}
+                </h4>
                 <button className="btn" onClick={() => Submit(item._id)}>Click for more</button>
               </div>
             );
