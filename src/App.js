@@ -8,6 +8,9 @@ import {
 import './App.css';
 import Blog from './Pages/Bolg';
 import Bloginfo from './Pages/Bloginfo';
+import WriteBlog from './Pages/WriteBlog';
+
+
 function App() {
   return (
     <Router>
@@ -15,6 +18,8 @@ function App() {
      
       <Route path="/" element={<Blog />} />
       <Route path="/bloginfo" element={<Bloginfo />} />
+      <Route path="/write" element={<WriteBlog />} />
+
 
     </Routes>
   </Router>
